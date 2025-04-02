@@ -26,7 +26,11 @@ def split_folder_to_chunks(folder_path, max_chunks=4):
                     outfile.write("\n\n")
 
 # Replace these paths with your actual folder paths
-folders = ['C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2021', 'C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2022', 'C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2023', 'C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2024\20240100103.txt']
-
+folders = [
+    r'C:\Path\To\Your\Folder\2021',
+    r'C:\Path\To\Your\Folder\2022',
+    r'C:\Path\To\Your\Folder\2023',
+    r'C:\Path\To\Your\Folder\2024'
+]
 for folder in folders:
     split_folder_to_chunks(folder)
