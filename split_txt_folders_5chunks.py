@@ -27,10 +27,10 @@ def split_folder_to_chunks(folder_path, max_chunks=5):
 
 # Corrected Windows paths with raw strings
 folders = [
-    r'C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2021',
-    r'C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2022',
-    r'C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2023',
-    r'C:\Users\dee\Desktop\ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ\just-text-main\just-text-main\2024'
+    r'C:\Path\To\Your\Folder\2021',
+    r'C:\Path\To\Your\Folder\2022',
+    r'C:\Path\To\Your\Folder\2023',
+    r'C:\Path\To\Your\Folder\2024'
 ]
 
 for folder in folders:
